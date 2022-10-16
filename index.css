@@ -1,0 +1,34 @@
+body{
+    background: #f1f1f1;
+}
+
+#header {
+    height: 3rem;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 3px 3px 4px #eee;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+}
+
+.left{
+    width: 100%;
+}
+
+#sidebar {
+    min-width: 13rem;
+    position: sticky;
+    top: 0;
+    height: 99vh;
+    box-shadow: 3px 3px 4px #eee;
+}
+
+#content {
+    width: 100%;
+}
