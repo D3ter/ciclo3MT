@@ -4,3 +4,32 @@ html, body, #root {
     margin: 0;
     padding: 0;
 }
+
+.content{
+    padding: 2rem 3rem;
+    height: calc(100vh - 4rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 1.7rem;
+    color: #333;
+    margin: 2rem 0;
+}
+
+.data{
+    width: 100%;
+    padding: 1rem 2rem;
+}
+
+tr{
+    vertical-align: middle;
+    height: 3rem;
+}
+
+.residente:hover {
+    cursor: pointer;
+    background-color: #f1f1f1;
+}

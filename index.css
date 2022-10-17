@@ -9,7 +9,7 @@ body{
     top: 0;
     left: 0;
     z-index: 1000;
-    box-shadow: 3px 3px 4px #eee;
+    box-shadow: 5px 5px 4px #eee;
 }
 
 .main{
@@ -26,9 +26,10 @@ body{
     position: sticky;
     top: 0;
     height: 99vh;
-    box-shadow: 3px 3px 4px #eee;
+    box-shadow: 5px 0 4px #eee;
 }
 
 #content {
     width: 100%;
+    height: calc(100vh - 4rem);
 }

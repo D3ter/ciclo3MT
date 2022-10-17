@@ -7,5 +7,9 @@ html, body, #root {
 
 nav{
     height: 100%;
+    display: flex;
+    align-items: center;
     background-color: #fff;
+    padding: 0 3rem;
+    justify-content: space-between;
 }
