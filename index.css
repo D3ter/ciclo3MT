@@ -9,7 +9,7 @@ body{
     top: 0;
     left: 0;
     z-index: 1000;
-    box-shadow: 5px 5px 4px #eee;
+    box-shadow: 5px 5px 4px #18181811;
 }
 
 .main{
@@ -19,6 +19,7 @@ body{
 
 .left{
     width: 100%;
+    height: 100vh;
 }
 
 #sidebar {
@@ -26,10 +27,10 @@ body{
     position: sticky;
     top: 0;
     height: 99vh;
-    box-shadow: 5px 0 4px #eee;
+    box-shadow: 5px 0 4px #18181811;
 }
 
 #content {
     width: 100%;
-    height: calc(100vh - 4rem);
+    height: calc(100vh - 3.4rem);
 }
